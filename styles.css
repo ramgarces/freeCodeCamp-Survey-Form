@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+body {
+    padding: 0;
+    margin: 2rem auto 2rem auto;
+    font-family: Poppins, sans-serif;
+    background: linear-gradient(180deg, black, rgb(0, 26, 53), black);
+    color: white;
+}
+
+/* Title section stuff */
+
+#title-div {
+    text-align: center;
+    line-height: .5;
+}
+
+#description {
+    font-weight: 100;
+    font-style: italic;
+    font-size: 1.10rem;
+    min-width: 50%;
+}
+
+/* Form stuff */
+
+form {
+    background: rgba(87, 87, 87, 0.4);
+    max-width: 90%;
+    height: 90%;
+    width: 50%;
+    margin: 2rem auto 1rem auto;
+    border-radius: .5rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-items: space-around;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto 1rem auto;
+    /* border: 1px solid white; */
+}
+
+.form-control {
+    display: block;
+    min-height: 2rem;
+    border-radius: .5rem;
+    border: 1px solid #7e7e7e;
+    padding: .3rem .8rem;
+    font-size: 1.25rem;
+    transition: border-color 0.25s ease-in-out, box-shadow 0.25s ease-in-out;
+}
+
+.form-control:focus {
+    border-color: rgba(85, 164, 255, 0.7);
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    outline: 0;
+}
+
+label {
+    font-size: 1.25rem;
+    margin-bottom: .2rem;
+}
+
+p {
+    margin-bottom: .2rem;
+    font-size: 1.25rem;
+}
+
+.input-checkbox,
+.input-radio {
+    transform: scale(1.5);
+    margin-right: 1rem;
+}
+
+.input-checkbox:hover {
+    outline-color: rgba(85, 164, 255, 0.7);
+}
+
+.clue {
+    font-size: 0.8rem;
+    color: rgba(87, 87, 87, 0.7)
+}
+
+select {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+button {
+    border: none;
+}
+
+textarea {
+    min-height: 150px;
+    padding: .75rem .5rem;
+    font-size: 1.25rem;
+    border-radius: .35rem;
+    border: 1px solid #7e7e7e;
+    transition: border-color 0.25s ease-in-out, box-shadow 0.25s ease-in-out;
+}
+
+textarea:focus {
+    border-color: rgba(85, 164, 255, 0.7);
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    outline: 0;
+}
+
+.submit-button {
+    min-height: 3rem;
+    border-radius: .35rem;
+    font-size: 1.5rem;
+    background-color: rgba(0, 58, 121, 0.4);
+    color: white;
+}
+
